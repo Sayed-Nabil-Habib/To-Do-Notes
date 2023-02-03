@@ -1,4 +1,34 @@
+ul{
+cursor: pointer;
+}
 .checked-off{
   text-decoration: line-through;
   color: red;
+  
+}
+.container{
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+ 
+ background-color: grey;
+}
+.main{
+
+}
+
+#note-input{
+ height: 30px;
+ width: 180px;
+}
+button{
+  height: 35px;
+  width: 90px;
+}
+#remove-note{
+  width: 120px;
+}
+#notes{
+  margin-right: 155px;
+  
 }
